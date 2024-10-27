@@ -61,7 +61,7 @@ def check_roles(roles_permitidos):
         return any(role_id in user_roles for role_id in roles_permitidos)
     return app_commands.check(predicate)
 
-# ID de los roles permitidos (cambia estos a los IDs de los roles específicos de tu servidor)
+# ID de los roles permitidos
 ROLES_PERMITIDOS = [1299953473604816906, 1299952826880884847, 1299882709501476864, 1299952907936075797]  # Cambia estos IDs a los de tus roles específicos
 
 # Comando slash para enviar notificaciones (solo roles específicos)
